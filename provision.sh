@@ -23,3 +23,4 @@ required_run ./node.sh
 required_run ./decking.sh
 required_run ./docker.sh
 required_run ./jq.sh
+required_run ./docker-compose.sh

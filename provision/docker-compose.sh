@@ -6,3 +6,4 @@ if [ -z "$(which docker-compose)" ]; then
     chmod a+x /usr/local/bin/docker-compose
 fi
 
+echo "docker-compose is installed"

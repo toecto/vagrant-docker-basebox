@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ -z "$(which docker)" ]; then
-    curl -sSL https://get.docker.com/ubuntu/ | sh
+    curl -sSL https://get.docker.com/ | sh
 fi
 
 if [ -d "/vagrant" ]; then

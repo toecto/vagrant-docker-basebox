@@ -18,9 +18,6 @@ cd provision
 
 required_run ./essentials.sh
 required_run ./php.sh
-required_run ./composer.sh
-required_run ./node.sh
-required_run ./decking.sh
 required_run ./docker.sh
-required_run ./jq.sh
 required_run ./docker-compose.sh
+required_run ./docker-project.sh
